@@ -72,6 +72,27 @@ export default function Home() {
       image: "/fragrances/secret-grove-placeholder.svg",
       alt: "Secret Grove fragrance placeholder",
     },
+    {
+      name: "Jo Malone Cypress & Grapevine",
+      size: "50 ml",
+      type: "EDP",
+      image: "/fragrances/jo-malone-cypress-grapevine.avif",
+      alt: "Jo Malone Cypress & Grapevine bottle",
+    },
+    {
+      name: "Dior Fahrenheit",
+      size: "100 ml",
+      type: "EDP",
+      image: "/fragrances/dior-fahrenheit.webp",
+      alt: "Dior Fahrenheit bottle",
+    },
+    {
+      name: "Dior Sauvage",
+      size: "50 ml",
+      type: "Parfum",
+      image: "/fragrances/dior-sauvage-parfum.jpg",
+      alt: "Dior Sauvage Parfum bottle",
+    },
   ];
 
   return (
