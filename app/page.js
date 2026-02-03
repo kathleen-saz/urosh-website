@@ -78,7 +78,7 @@ export default function Home() {
     <div className="page">
       <main className="container">
         <section className="title">
-          <h1>Fragrances for Sale</h1>
+          <h1>Fragance Collection</h1>
         </section>
 
         <section className="grid">
