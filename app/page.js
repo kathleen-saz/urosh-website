@@ -75,7 +75,7 @@ export default function Home() {
     {
       name: "Jo Malone Cypress & Grapevine",
       size: "50 ml",
-      type: "EDP",
+      type: "Cologne Intense",
       image: "/fragrances/jo-malone-cypress-grapevine.avif",
       alt: "Jo Malone Cypress & Grapevine bottle",
     },
