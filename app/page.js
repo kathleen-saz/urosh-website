@@ -10,14 +10,14 @@ export default function Home() {
       alt: "Dior Homme Intense bottle",
     },
     {
-      name: "YSL Kuros",
+      name: "YSL Kouros",
       size: "100 ml",
       type: "EDP",
       image: "/fragrances/ysl-kouros.jpg",
       alt: "YSL Kouros bottle",
     },
     {
-      name: "YSL Myself",
+      name: "YSL MYSLF",
       size: "100 ml",
       type: "EDP",
       image: "/fragrances/ysl-myslf.jpg",
@@ -38,7 +38,7 @@ export default function Home() {
       alt: "Montblanc Explorer bottle",
     },
     {
-      name: "Terre de Hermès",
+      name: "Terre d'Hermès",
       size: "50 ml",
       type: "EDT",
       image: "/fragrances/terre-d-hermes.jpg",
