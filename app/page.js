@@ -78,7 +78,6 @@ export default function Home() {
     <div className="page">
       <main className="container">
         <section className="title">
-          <p className="tag">Urosh Collection</p>
           <h1>Fragrances for Sale</h1>
         </section>
 
