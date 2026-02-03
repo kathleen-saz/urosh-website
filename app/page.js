@@ -66,11 +66,11 @@ export default function Home() {
       alt: "Tom Ford Noir Extreme bottle",
     },
     {
-      name: "Secret Grove",
+      name: "Grove by the Sea",
       size: "100 ml",
       type: "EDP",
-      image: "/fragrances/secret-grove-placeholder.svg",
-      alt: "Secret Grove fragrance placeholder",
+      image: "/fragrances/grove-by-the-sea.webp",
+      alt: "Grove by the Sea bottle",
     },
     {
       name: "Jo Malone Cypress & Grapevine",
