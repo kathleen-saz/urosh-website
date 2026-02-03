@@ -24,7 +24,7 @@ export default function Home() {
       alt: "YSL MYSLF bottle",
     },
     {
-      name: "Blu de Chanel",
+      name: "Bleu de Chanel",
       size: "50 ml",
       type: "EDP",
       image: "/fragrances/bleu-de-chanel.avif",
@@ -42,7 +42,7 @@ export default function Home() {
       size: "50 ml",
       type: "EDT",
       image: "/fragrances/terre-d-hermes.jpg",
-      alt: "Terre d'Hermes bottle",
+      alt: "Terre d'Hermès bottle",
     },
     {
       name: "Tom Ford Noir",
@@ -78,7 +78,7 @@ export default function Home() {
     <div className="page">
       <main className="container">
         <section className="title">
-          <h1>Fragance Collection</h1>
+          <h1>Fragrance Collection</h1>
         </section>
 
         <section className="grid">
