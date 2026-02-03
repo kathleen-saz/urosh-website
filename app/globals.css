@@ -17,7 +17,11 @@
 html,
 body {
   width: 100%;
-  overflow-x: hidden;
+  height: 100%;
+}
+
+html {
+  overflow: hidden;
 }
 
 body {
@@ -27,6 +31,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-y: auto;
+  overflow-x: hidden;
 }
 
 a {
@@ -157,55 +162,4 @@ a {
 .card h2 {
   font-size: 1.3rem;
   color: var(--ink);
-}
-
-.cta {
-  background: linear-gradient(120deg, rgba(90, 74, 58, 0.12), rgba(210, 162, 76, 0.2));
-  border-radius: 26px;
-  padding: 28px 32px;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  align-items: center;
-  justify-content: space-between;
-  border: 1px solid rgba(25, 23, 18, 0.08);
-}
-
-.cta h3 {
-  font-family: var(--font-display), "Times New Roman", serif;
-  font-size: 1.6rem;
-}
-
-.cta p {
-  color: rgba(25, 23, 18, 0.6);
-  margin-top: 6px;
-}
-
-.cta-button {
-  border: none;
-  background: var(--ink);
-  color: #fff9f1;
-  padding: 12px 26px;
-  border-radius: 999px;
-  font-weight: 600;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  cursor: pointer;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-.cta-button:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 12px 30px rgba(25, 23, 18, 0.18);
-}
-
-@media (max-width: 700px) {
-  .cta {
-    align-items: flex-start;
-  }
-
-  .cta-button {
-    width: 100%;
-    text-align: center;
-  }
 }

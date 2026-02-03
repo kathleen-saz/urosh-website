@@ -24,10 +24,10 @@ export default function Home() {
       alt: "YSL MYSLF bottle",
     },
     {
-      name: "Bleu de Chanel",
+      name: "Blu de Chanel",
       size: "50 ml",
       type: "EDP",
-      image: "/fragrances/bleu-de-chanel.jpg",
+      image: "/fragrances/bleu-de-chanel.avif",
       alt: "Bleu de Chanel bottle",
     },
     {
@@ -48,7 +48,7 @@ export default function Home() {
       name: "Tom Ford Noir",
       size: "100 ml",
       type: "EDP",
-      image: "/fragrances/tom-ford-noir.png",
+      image: "/fragrances/tom-ford-noir.avif",
       alt: "Tom Ford Noir bottle",
     },
     {
@@ -102,18 +102,6 @@ export default function Home() {
           ))}
         </section>
 
-        <section className="cta">
-          <div>
-            <h3>Interested?</h3>
-            <p>
-              Send a quick message with the bottle name(s) and your preferred
-              pickup option.
-            </p>
-          </div>
-          <button className="cta-button" type="button">
-            Send a message
-          </button>
-        </section>
       </main>
     </div>
   );
